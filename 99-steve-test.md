@@ -25,13 +25,14 @@ print("This is some printed text")
 
 ### Here's how you get R lesson generation working:
 
-1. Write your Rmd page (like the file that generated this.. `99-steve-test.Rmd`!)
-2. Install gcc, R and pandoc (use `brew` on the Mac)
-3. Install pandocfilters and commonmark (it's python, use `pip`)
-4. Install knitr in R (eg `install.packages('knitr', dependencies = TRUE)`)
-5. `make preview` to generate the relevant markdown, html files for your lessons.
-6. You'll end up with an html page like this one!
-7. Your output should resemble the following:
+1. git clone the lesson on your machine `git clone https://github.com/swcarpentry/r-novice-inflammation`
+2. Write your Rmd page (like the file that generated this.. `99-steve-test.Rmd`!)
+3. Install gcc, R and pandoc (use `brew` on the Mac)
+4. Install pandocfilters and commonmark (it's python, use `pip`)
+5. Install knitr in R (eg `install.packages('knitr', dependencies = TRUE)`)
+6. `make preview` to generate the relevant markdown, html files for your lessons.
+7. You'll end up with an html page like this one!
+8. Your output should resemble the following:
 
 ```
 $ make preview
