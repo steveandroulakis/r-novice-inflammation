@@ -6,11 +6,9 @@ minutes: 3
 ---
 
 > ## Learning Objectives {.objectives}
-> * Read tabular data from a file into a program.
-> * Assign values to variables.
-> * Select individual values and subsections from data.
-> * Perform operations on a data frame of data.
-> * Display simple graphs.
+> * Lalala
+> * Bla bla bla
+> * Etc etc
 
 Hi there, this is a test file. `And here is some inline code!` yay.
 
@@ -27,12 +25,13 @@ print("This is some printed text")
 
 Here's how you get R lesson generation working:
 
-1. Install gcc, R and pandoc (use `brew` on the Mac)
-2. Install pandocfilters and commonmark (it's python, use `pip`)
-3. Install knitr in R (eg `install.packages('knitr', dependencies = TRUE)`)
-4. `make preview` to generate the relevant markdown, html files for your lessons.
-5. You'll end up with an html page like this one!
-6. Your output should resemble the following:
+1. Write your rmd page (like this one!)
+2. Install gcc, R and pandoc (use `brew` on the Mac)
+3. Install pandocfilters and commonmark (it's python, use `pip`)
+4. Install knitr in R (eg `install.packages('knitr', dependencies = TRUE)`)
+5. `make preview` to generate the relevant markdown, html files for your lessons.
+6. You'll end up with an html page like this one!
+7. Your output should resemble the following:
 
 ```
 $ make preview
