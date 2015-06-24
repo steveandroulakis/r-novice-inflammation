@@ -6,11 +6,9 @@ minutes: 3
 ---
 
 > ## Learning Objectives {.objectives}
-> * Read tabular data from a file into a program.
-> * Assign values to variables.
-> * Select individual values and subsections from data.
-> * Perform operations on a data frame of data.
-> * Display simple graphs.
+> * Lalala
+> * Bla bla bla
+> * Etc etc
 
 Hi there, this is a test file. `And here is some inline code!` yay.
 
