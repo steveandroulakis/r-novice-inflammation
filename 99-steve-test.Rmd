@@ -1,0 +1,69 @@
+---
+layout: page
+title: Steve Test Page
+subtitle: This is a test by Steve A.
+minutes: 3
+---
+
+> ## Learning Objectives {.objectives}
+> * Read tabular data from a file into a program.
+> * Assign values to variables.
+> * Select individual values and subsections from data.
+> * Perform operations on a data frame of data.
+> * Display simple graphs.
+
+Hi there, this is a test file. `And here is some inline code!` yay.
+
+*This is some executed R code..*
+
+```{r steve-test-code}
+print("This is some printed text")
+```
+
+Here's how you get R lesson generation working:
+
+1. Install gcc, R and pandoc (use `brew` on the Mac)
+2. Install pandocfilters and commonmark (it's python, use `pip`)
+3. Install knitr in R (eg `install.packages('knitr', dependencies = TRUE)`)
+4. `make preview` to generate the relevant markdown, html files for your lessons.
+5. You'll end up with an html page like this one!
+6. Your output should resemble the following:
+
+```
+$ make preview
+Rscript -e "knitr::knit('$(basename 99-steve-test.Rmd)', output = '$(basename 99-steve-test.md)')"
+
+
+processing file: 99-steve-test.Rmd
+|......................                                           |  33%
+ordinary text without R code
+
+|...........................................                      |  67%
+label: steve-test-code
+|.................................................................| 100%
+ordinary text without R code
+
+
+output file: 99-steve-test.md
+
+[1] "99-steve-test.md"
+pandoc -s -t html \
+--smart \
+--template=_layouts/page \
+--filter=tools/filters/blockquote2div.py \
+--filter=tools/filters/id4glossary.py \
+-Vheader="$(cat _includes/header.html)" -Vbanner="$(cat _includes/banner.html)" -Vfooter="$(cat _includes/footer.html)" -Vjavascript="$(cat _includes/javascript.html)" \
+-o 99-steve-test.html 99-steve-test.md
+```
+
+### And now, for a kitten...
+<img src="fig/kitten.png" alt="A Kitten" />
+
+> ## Challenge - Doing things. {.challenge}
+>
+> Do all of the things!
+
+> ## Key Points {.callout}
+>
+> * Test point 1
+> * Test point 2
