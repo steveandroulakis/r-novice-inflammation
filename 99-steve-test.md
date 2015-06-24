@@ -25,7 +25,7 @@ print("This is some printed text")
 
 Here's how you get R lesson generation working:
 
-1. Write your rmd page (like this one!)
+1. Write your Rmd page (like the file that generated this.. `99-steve-test.Rmd`!)
 2. Install gcc, R and pandoc (use `brew` on the Mac)
 3. Install pandocfilters and commonmark (it's python, use `pip`)
 4. Install knitr in R (eg `install.packages('knitr', dependencies = TRUE)`)
