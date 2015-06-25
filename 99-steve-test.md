@@ -27,7 +27,7 @@ print("This is some printed text")
 _Eg. How to make [this Rmd file](https://raw.githubusercontent.com/steveandroulakis/r-novice-inflammation/gh-pages/99-steve-test.Rmd) generate the html page you're reading._
 
 1. git clone the lesson on your machine `git clone https://github.com/swcarpentry/r-novice-inflammation`
-2. Write your Rmd page (like the file that generated this.. [99-steve-test.Rmd](https://raw.githubusercontent.com/steveandroulakis/r-novice-inflammation/gh-pages/99-steve-test.Rmd)!)
+2. Write your Rmd page (like the file that generated this.. [99-steve-test.Rmd](https://raw.githubusercontent.com/steveandroulakis/r-novice-inflammation/gh-pages/99-steve-test.Rmd)!). *Note: Your `Rmd` file must start with a number and dash, like the other ones currently in the directory. Eg `55-my-test.Rmd`.*
 3. Install gcc, R and pandoc (use `brew` on the Mac)
 4. Install pandocfilters and commonmark (it's python, use `pip`)
 5. Install knitr in R (eg `install.packages('knitr', dependencies = TRUE)`)
